@@ -1,0 +1,7 @@
+version: "3.3"
+services: 
+  web:
+    build: "/home/ubuntu/django-todo"
+    ports:
+      - "8001:8001"
+
